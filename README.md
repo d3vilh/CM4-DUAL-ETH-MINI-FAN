@@ -1,5 +1,5 @@
 # CM4-DUAL-ETH-MINI-FAN
-FAN control script for Waveshare CM4 DUAL ETH MINI board.
+FAN control script for [**Waveshare CM4 DUAL ETH MINI board**](https://www.waveshare.com/cm4-dual-eth-mini.htm).
 
 This script is designed to control a fan speed based on temperature readings.
 It uses the GPIO library to interact with the Raspberry Pi's GPIO pins.
@@ -9,7 +9,7 @@ It also uses edge detection to measure the fan speed by counting the number of p
 The script runs indefinitely until interrupted by the user (Ctrl+C).
 It is important to note that this script requires the RPi.GPIO library to be installed (`sudo apt install python3-gpiozero`) and the script to be run with **root** privileges.
 
-The script is designed to be run on a Raspberry Pi CM4 with a fan connected to the standard Waveshare CM4 DUAL ETHERNET mini board FAN GPIO pins.
+The script is designed to be run on a Raspberry Pi CM4 with a fan connected to the standard [**Waveshare CM4 DUAL ETHERNET mini board**](https://www.waveshare.com/wiki/CM4-DUAL-ETH-MINI) FAN GPIO pins.
 
 ## Usage
 `sudo python fan-control.py`
