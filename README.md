@@ -17,9 +17,14 @@ The script is designed to be run on a Raspberry Pi CM4 with a fan connected to t
 ## Permanent installation
 
 1. Copy file to `/root/fan-control.py`
-2. add line `python /root/fan-control.p` into `/etc/rc.local` right before `exit 0` line:
+2. add line `python /root/fan-control.py` into `/etc/rc.local` right before `exit 0` line:
 ```bash
 sudo sh -c 'grep -q "python /root/fan-control.py" /etc/rc.local || sudo sed -i "/exit 0/i python /root/fan-control.py" /etc/rc.local'
 ```
 
 It will run in background after the reboot.
+
+
+<a href="https://www.buymeacoffee.com/d3vilh" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="51" width="217"></a>
+
+May 2025, [**d3vilh**](https://github.com/d3vilh)
