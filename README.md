@@ -11,6 +11,10 @@ It is important to note that this script requires the RPi.GPIO library to be ins
 
 The script is designed to be run on a Raspberry Pi CM4 with a fan connected to the standard [**Waveshare CM4 DUAL ETHERNET mini board**](https://www.waveshare.com/wiki/CM4-DUAL-ETH-MINI) FAN GPIO pins.
 
+CPU temp graph on CM4 after applying script:
+
+![FAN running graph after script execution](FAN-Graph.png.png) 
+
 ## Usage
 `sudo python fan-control.py`
 
