@@ -13,7 +13,7 @@ The script is designed to be run on a Raspberry Pi CM4 with a fan connected to t
 
 CPU temp graph on CM4 after applying script:
 
-![FAN running graph after script execution](FAN-Graph.png.png) 
+![FAN running graph after script execution](/FAN-Graph.png.png) 
 
 ## Usage
 `sudo python fan-control.py`
